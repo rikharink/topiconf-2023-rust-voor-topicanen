@@ -1,0 +1,129 @@
+/* @theme topicus */
+
+@import "default";
+
+@font-face {
+  font-family: "Montserrat VF";
+  src: url("/themes/font/Montserrat-VF.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Italic VF";
+  src: url("/themes/font/Montserrat-Italic-VF.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+:root {
+  --topicus-yellow: #f8e800;
+  --topicus-black: #000000;
+  --topicus-grey: #3c3c3c;
+  --topicus-grey-0: var(--topicus-grey);
+  --topicus-grey-1: #878787;
+  --topicus-grey-2: #b2b2b2;
+  --topicus-grey-3: #ececec;
+  --topicus-white: #ffffff;
+  --zorg: #009be5;
+  --finance: #004899;
+  --onderwijs: #cd2f58;
+  --sociaaldomein: #ee7203;
+  font-family: "Montserrat VF", "Montserrat Italic VF", "Montserrat", sans-serif;
+  font-weight: 300;
+
+  background: var(--topicus-white);
+  color: var(--topicus-black);
+}
+
+:root::after {
+  bottom: 42px;
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  pointer-events: none;
+  position: absolute;
+  left: 52px;
+  font-size: 1rem;
+  color: var(--topicus-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--topicus-black);
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: var(--topicus-grey);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+p {
+  color: var(--topicus-black);
+  text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+section ul {
+  align-self: center;
+  padding: 0;
+  padding-top: 1rem;
+}
+
+section table {
+  padding-top: 1rem;
+  align-self: center;
+}
+
+section.lead {
+  background-color: var(--zorg);
+}
+
+section.lead h1,
+section.lead h2,
+section.lead h3 {
+  color: var(--topicus-white);
+}
+
+section.left {
+  align-self: center;
+}
+
+section.left p,
+section.left h1,
+section.left h2,
+section.left h3 {
+  text-align: left;
+}
+
+img {
+  background-color: transparent;
+}
+
+blockquote {
+  margin: 1rem;
+}
+
+blockquote p {
+  font-style: italic;
+}
