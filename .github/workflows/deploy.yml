@@ -36,7 +36,7 @@ jobs:
       if: success()
       uses: crazy-max/ghaction-github-pages@v3
       with:
-        build_dir: presentatie/dist
+        build_dir: dist
         jekyll: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
