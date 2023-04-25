@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "marp -s -p ."
+    "start": "marp -s -p .",
+    "build": "./build.sh"
   },
   "keywords": [],
   "author": "",
