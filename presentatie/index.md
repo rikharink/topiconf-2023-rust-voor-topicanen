@@ -19,13 +19,15 @@ spreker: Rik
 -->
 # wat is Rust?
 
-* Systeemtaal, vervanger C
-* Moderne taal: generics
-* Geen Garbage Collector
-* Niet objectgeorienteerd
-* Multi platform (inclusief Wasm en Arduino)
-* Procedureel met funcionele invloeden
-* Zero cost abstractions
+* systeemtaal, vervanger C
+* moderne taal: generics
+* geen Garbage Collector
+* niet objectgeorienteerd
+* procedureel met funcionele invloeden
+* multi platform (inclusief WASM en Arduino)
+* zero cost abstractions
+
+![ferris](img/ferris.png)
 
 ---
 <!-- 
@@ -103,8 +105,12 @@ spreker: Rik
 <!-- 
 spreker: Rik
 -->
-# links
+# linkdump
 
+- <https://krab.toi.vet>
 - <https://github.com/rikharink/topiconf-2023-rust-voor-topicanen>
-- <https://rustup.rs/>
+- <https://rust-lang.org>
 - <https://play.rust-lang.org/>
+- <https://rustup.rs/>
+- <https://fasterthanli.me/>
+- <https://www.youtube.com/fasterthanlime>
