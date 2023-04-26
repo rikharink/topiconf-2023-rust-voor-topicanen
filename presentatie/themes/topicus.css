@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "Montserrat VF";
-  src: url("/themes/font/Montserrat-VF.woff2") format("woff2-variations");
+  src: url("./font/Montserrat-VF.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Montserrat Italic VF";
-  src: url("/themes/font/Montserrat-Italic-VF.woff2") format("woff2-variations");
+  src: url("./font/Montserrat-Italic-VF.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: italic;
 }
