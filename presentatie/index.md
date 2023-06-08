@@ -16,14 +16,20 @@ spreker: Rik
 ---
 <!-- 
 spreker: Rik
+
+systeemtaal toelichten: 
+    performance belangrijk, kernel, crypto
+    code die dicht op de hardware ligt
+
+moderne taal
 -->
 # wat is Rust?
 
 * systeemtaal, vervanger C
 * moderne taal: generics
-* geen Garbage Collector
-* niet objectgeorienteerd
-* procedureel met funcionele invloeden
+* geen garbage collector
+* niet objectgeoriënteerd
+* procedureel met functionele invloeden
 * multi platform (inclusief WASM en Arduino)
 * zero cost abstractions
 
@@ -55,13 +61,25 @@ spreker: Mart
 # voorbeeld 1
 
 ---
+<!--
+spreker: Mart
+-->
+# verwijzingen
+
+* verwijsbrief -> medisch dossier
+* kopiëren verwijsbrief
+* volgen verwijsbrief
+* syntax
+* exclusiviteit
+
+---
 <!-- 
 spreker: Mart
 -->
 # borrow checker
 
 * compile time memory safety
-* 1 bewerkbare instantie of meerdere niet-bewerkbare instanties
+* 1 exclusieve instantie of meerdere gedeelde instanties
 * eigenaarschap: wie is verantwoordelijk voor de data
 * (undefined behaviour)
 
