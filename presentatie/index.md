@@ -16,12 +16,6 @@ spreker: Rik
 ---
 <!-- 
 spreker: Rik
-
-systeemtaal toelichten: 
-    performance belangrijk, kernel, crypto
-    code die dicht op de hardware ligt
-
-moderne taal
 -->
 # wat is Rust?
 
@@ -97,7 +91,7 @@ spreker: Rik
 <!-- 
 spreker: Rik
 -->
-![bg left contain](./img/threading.jpeg)
+![bg left contain](./img/threading.png)
 
 # functionele eis
 
@@ -125,10 +119,11 @@ spreker: Rik
 -->
 # linkdump
 
+![bg left contain 50%](./img/qr.png)
+
 - <https://krab.toi.vet>
 - <https://github.com/rikharink/topiconf-2023-rust-voor-topicanen>
 - <https://rust-lang.org>
-- <https://play.rust-lang.org/>
-- <https://rustup.rs/>
-- <https://fasterthanli.me/>
-- <https://www.youtube.com/fasterthanlime>
+- <https://play.rust-lang.org>
+- <https://rustup.rs>
+- <https://fasterthanli.me>

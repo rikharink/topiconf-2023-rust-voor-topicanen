@@ -1,0 +1,6 @@
+[book]
+authors = ["Rik Harink"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Krab voor Salamanders: wat Topicanen moeten weten over Rust"
